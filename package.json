@@ -1,0 +1,35 @@
+{
+  "name": "terra-address-generator",
+  "version": "1.0.1",
+  "description": "A simple javascript library to generate Terra private keys and addresses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "terra",
+    "wallet",
+    "cosmos",
+    "blockchain",
+    "luna",
+    "terrakrw",
+    "terrasdr"
+  ],
+  "homepage": "https://github.com/mikedeshazer/terra-address-generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikedeshazer/terra-address-generator"
+  },
+  "author": "Mike <mike@proofsuite.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bech32": "latest",
+    "bip32": "latest",
+    "bip39": "latest",
+    "bitcoinjs-lib": "latest",
+    "node-fetch": "latest",
+    "secp256k1": "latest",
+    "poliscore-mnemonic": "latest",
+    "js-sha256": "latest"
+  }
+}
